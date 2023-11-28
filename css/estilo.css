@@ -1,0 +1,305 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/*HEADER */
+.logo {
+  width: 150px;
+  cursor: pointer;
+  margin-right: 30px;
+}
+
+header {
+  padding: 10px 2%;
+  border-bottom: 1px solid black;
+}
+
+.encabezado {
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.botonBuscar {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+  color: #fff;
+  background-color: #b88e2f;
+}
+.botonBuscar:hover {
+  background-color: #84611a;
+}
+
+/* BANNER */
+@media (min-width: 400px) and (max-width: 900px) {
+  #comprar {
+    flex-direction: column;
+    border: none;
+  }
+}
+.banner {
+  background-image: url("../img/Banner.png");
+  background-size: cover;
+  height: calc(100vh - 100px);
+  padding: 50px;
+  margin-bottom: 40px;
+}
+
+/* Contenedor de Banner */
+.contenedorBanner {
+  border-radius: 4px;
+  height: 600px;
+  width: 500px;
+  margin: 30px;
+  padding: 20px;
+  /* Centrado de forma simple */
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 70px;
+  margin-right: 70px;
+  /******************************/
+  /* ctrl + k + u */
+  background-color: #fff3e3;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 90%;
+}
+
+h1 {
+  font-weight: bold;
+  color: #b88e2f;
+  font-size: 40px;
+}
+
+.botonComprarAhora {
+  text-decoration: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 20px 65px;
+  font-weight: bold;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #b88e2f;
+}
+.botonComprarAhora:hover {
+  background-color: #84611a;
+}
+
+/*CARDS*/
+h2 {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+.contenedorProductos {
+  margin: 20px;
+}
+
+.card {
+  border: none;
+}
+
+.productoImagen {
+  margin-top: 20px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+h5 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* CSS DE TIENDA.HTML */
+.bannerTienda {
+  background-image: url("../img/Banner tienda.png");
+  background-size: cover;
+  height: 400px;
+}
+
+.tituloTienda {
+  text-align: center;
+  padding-top: 160px;
+}
+
+.h1Muebles {
+  color: black;
+  font-weight: bold;
+}
+
+.productoMueble {
+  margin: 0 50px;
+}
+
+.h2Mueble {
+  margin-bottom: 30px;
+  color: #b88e2f;
+  font-weight: normal;
+}
+
+.botonComprar {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  border: none;
+  color: #fff;
+  background-color: #b88e2f;
+  margin-bottom: 30px;
+}
+.botonComprar:hover {
+  background-color: #84611a;
+}
+
+.mainExplorar {
+  margin: 0 10px;
+}
+
+.opcionesExplorar {
+  text-align: center;
+  max-width: 100%;
+}
+
+.botonExplorarPrimario {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+  color: #fff;
+  background-color: #b88e2f;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+.botonExplorarPrimario:hover {
+  background-color: #84611a;
+}
+
+.botonSecundario {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+  margin: 0 50px;
+  margin-top: 30px;
+}
+
+.cardExplorar {
+  margin: 50px;
+  border: 1px solid #cfcfcf;
+}
+
+.tituloExplorar {
+  margin-top: 20px;
+}
+
+.quienesSomos {
+  margin: 30px;
+}
+
+.bannerTienda {
+  background-image: url("../img/Banner tienda.png");
+  background-size: cover;
+  height: 400px;
+}
+
+.tituloTienda {
+  text-align: center;
+  padding-top: 160px;
+}
+
+.h1Muebles {
+  color: black;
+  font-weight: bold;
+}
+
+.productoMueble {
+  margin: 0 20px;
+}
+
+.h2Mueble {
+  margin-bottom: 30px;
+  color: #b88e2f;
+  font-weight: normal;
+}
+
+.botonComprar {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 50px;
+  padding-left: 85px;
+  padding-right: 85px;
+  max-width: 100%;
+  border: none;
+  color: #fff;
+  background-color: #b88e2f;
+}
+.botonComprar:hover {
+  background-color: #84611a;
+}
+
+.formulario {
+  padding: 0 100px;
+}
+
+.formInput {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: black;
+}
+
+.botonform {
+  background-color: #b88e2f;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.tituloContacto {
+  margin-top: 20px;
+}
+
+/*# sourceMappingURL=estilo.css.map */

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Bienvenidos a Furniro, tu destino definitivo para el diseño de interiores.
+    Sumérgete en un mundo de elegancia y creatividad, donde cada rincón cobra vida con nuestro enfoque vanguardista.
+    Desde conceptos innovadores hasta detalles exquisitos, encuentra inspiración, despierta tu creatividad y haz
+    realidad tus sueños de diseño interior con Furniro. Transforma tu hogar con Furniro: diseño que inspira, calidad que perdura.">
+    <meta name=" keywords" content="Diseño, Innovacion, Decoracion, Creativo, Living, Dormitorio, Baño, Comprar">
+
+    <title>Furniro</title>
+
+    <!-- CSS BS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/estilo.css">
+
+</head>
+
+<body>
+
+    <!-- ENCABEZADO -->
+    <header>
+        <nav class="navbar navbar-expand-lg encabezado">
+            <div class="container-fluid">
+                <img class="logo" src="img/Logo Furniro.png" alt="Logo de Furniro">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="html/explorar.html">Explorar</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Tienda
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="html/tienda.html">Muebles</a></li>
+                                <li><a class="dropdown-item" href="#">Accesorios</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Más opciones</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-disabled="true" href="html/acercade.html">Acerca de</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-disabled="true" href="html/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success botonBuscar" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- BANNER -->
+
+    <section class="banner">
+        <div class="contenedorBanner">
+            <h1>Descubre nuestra nueva colección</h1>
+            <p>Desde elegantes muebles hasta accesorios cautivadores, descubre la elegancia y la innovación que
+                transformarán tu espacio</p>
+            <a class="botonComprarAhora" href="#comprar">Comprar ahora</a>
+        </div>
+    </section>
+
+
+
+
+    <!-- CARDS -->
+
+    <main class="row contenedorProductos">
+
+        <h2>Explora nuestra selección exclusiva</h2>
+
+        <p class="text-center">Desde elegantes muebles hasta detalles decorativos cuidadosamente seleccionados, cada elemento de nuestro
+            repertorio ha sido curado con pasión y experiencia para transformar tus espacios en experiencias únicas.
+            Sumérgete en la creatividad y descubre cómo nuestra visión única puede dar vida a tus sueños de diseño
+            interior.</p>
+
+        <div class="card col-xl-3 col-md-6 col-sm-12 productoImagen">
+            <img src="img/Foto comedor.png" class="card-img-top" alt="Comedor">
+            <div class="card-body">
+                <h5 class="text-center">Comedor</h5>
+            </div>
+        </div>
+
+        <div class="card col-xl-3 col-md-6 col-sm-12 productoImagen">
+            <img src="img/Foto dormitorio.png" class="card-img-top" alt="Dormitorio">
+            <div class="card-body">
+                <h5 class="text-center">Dormitorio</h5>
+            </div>
+        </div>
+
+        <div class="card col-xl-3 col-md-6 col-sm-12 productoImagen">
+            <img src="img/Foto Living.png" class="card-img-top" alt="Living">
+            <div class="card-body">
+                <h5 class="text-center">Living</h5>
+            </div>
+        </div>
+
+        <div class="card col-xl-3 col-md-6 col-sm-12 productoImagen">
+            <img src="img/Foto Baño.jpg" class="card-img-top" alt="Baño">
+            <div class="card-body">
+                <h5 class="text-center">Baño</h5>
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Inicio</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Explorar</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Tienda</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Acerca de</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Contacto</a></li>
+        </ul>
+        <p class="text-center text-body-secondary">&copy; 2023 Furniro, Inc</p>
+
+        <div class="nav justify-content-center">
+            <ul class="list-unstyled d-flex">
+                <li class="ms-3"><i class="bi bi-facebook"></i></li>
+                <li class="ms-3"><i class="bi bi-whatsapp"></i></li>
+                <li class="ms-3"><i class="bi bi-instagram"></i></li>
+            </ul>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

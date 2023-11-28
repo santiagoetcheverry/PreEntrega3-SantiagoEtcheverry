@@ -1,0 +1,73 @@
+/*CARDS*/
+
+h2 {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  
+  .contenedorProductos {
+    margin: 20px;
+  }
+  
+  .card {
+    border: none;
+  }
+  
+  .productoImagen {
+    margin-top: 20px;
+    object-fit: contain;
+    cursor: pointer;
+  }
+  
+  h5 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  /* CSS DE TIENDA.HTML */
+  
+  .bannerTienda {
+    background-image: url("../img/Banner\ tienda.png");
+    background-size: cover;
+    height: 400px;
+  }
+  
+  .tituloTienda {
+    text-align: center;
+    padding-top: 160px;
+  }
+  
+  .h1Muebles {
+    color: black;
+    font-weight: bold;
+  }
+  
+  .productoMueble {
+    margin: 0 50px;
+  }
+  
+  .h2Mueble {
+    margin-bottom: 30px;
+    color: $color-principal;
+    font-weight: normal;
+  }
+  
+  .botonComprar {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border: none;
+    color: #fff;
+    background-color: $color-principal;
+    margin-bottom: 30px;
+  
+    &:hover {
+      background-color: $color-secundario;
+    }
+  }
+  

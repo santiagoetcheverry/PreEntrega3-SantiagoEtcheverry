@@ -1,0 +1,68 @@
+/* BANNER */
+
+@media (min-width: 400px) and (max-width: 900px) {
+  #comprar {
+    flex-direction: column;
+    border: none;
+  }
+}
+
+.banner {
+  background-image: url("../img/Banner.png");
+  background-size: cover;
+  height: calc(100vh - 100px);
+  padding: 50px;
+  margin-bottom: 40px;
+}
+
+/* Contenedor de Banner */
+
+.contenedorBanner {
+  border-radius: 4px;
+  height: 600px;
+  width: 500px;
+  margin: 30px;
+  padding: 20px;
+
+  /* Centrado de forma simple */
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 70px;
+  margin-right: 70px;
+
+  /******************************/
+  /* ctrl + k + u */
+  background-color: #fff3e3;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 90%;
+}
+
+h1 {
+  font-weight: bold;
+  color: $color-principal;
+  font-size: 40px;
+}
+
+.botonComprarAhora {
+  text-decoration: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 20px 65px;
+  font-weight: bold;
+  border-radius: 4px;
+  color: #fff;
+  background-color: $color-principal;
+
+  &:hover {
+    background-color: $color-secundario;
+  }
+}
